@@ -1,0 +1,69 @@
+/****************GIT*****************/
+
+body
+{
+	font-family: "Bariol", sans serif;
+}
+
+#bar
+{	
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	width: 1350px;
+	background-color: #693460;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	margin-left: 8px;
+}
+
+
+.logo
+{
+	display: flex;
+	justify-content: flex-start;
+	height: 60px;
+	width: 215px;
+	margin-left: 15px;
+}	
+
+
+#menu
+{
+	display: flex;
+	justify-content: space-around;
+	width: 65%;
+	padding-top: 35px;
+	font-size: 14px;
+	margin-left: 10%;
+	color: white;
+}
+
+
+.element1
+{
+	color: #F9BF38;
+}
+
+
+.element2
+{
+	font-size: 13px;
+	margin-left: 20%;
+}
+
+
+.plage
+{
+	display: flex;
+	min-height: 70vh;
+
+}
+
+
+.plage img
+{
+	width: 100%;
+}
